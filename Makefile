@@ -13,7 +13,7 @@ NAME = libftprintf.a
 CFLAGS = -Wall -Werror -Wextra
 HEADER = libftprintf.h
 
-CFILES = src/ft_itoa_base.c src/b_printf.c src/ft_putchar.c src/ft_putstr.c src/ft_strlen.c
+CFILES = ft_itoa_base.c b_printf.c ft_putchar.c ft_putstr.c ft_strlen.c
 OFILES = *.o
 
 all: $(NAME)
